@@ -31,6 +31,7 @@ public class OnResponseImpl implements OnResponse {
     @Override
     public void onSuccess(List<Repo> repos) {
         Log.d(TAG, "请求成功回调");
+
         // 本地数据库缓存对象
         // 本地数据库插入返回值
         if (RepoBoundaryCallback.hasMore) {
