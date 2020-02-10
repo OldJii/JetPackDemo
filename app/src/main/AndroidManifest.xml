@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.edu.heuet.pagingdemofinal_java">
+    package="com.example.JetPackDemo">
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SearchRepositoriesActivity">
+        <activity android:name="com.example.JetPackDemo.SearchRepositoriesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
