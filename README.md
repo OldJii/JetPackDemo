@@ -8,7 +8,7 @@
 
 **目前使用的组件/开源库**：LifeCycle + LiveData + ViewModel + Paging + Room + Retrofit
 
-**后续引入**：DataBinding + 基于LifeCycle的全局工具类 + Navigation + Rxjava
+**后续引入**：DataBinding + Navigation + Rxjava + 基于LifeCycle的全局工具类
 
 ### 数据流动
 
