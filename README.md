@@ -1,4 +1,4 @@
-# PagingDemoFinal-Java
+# JetPackDemo
 
 为了更好的理解JetPack各组件的关系，将其简单的整合为一个项目
 
