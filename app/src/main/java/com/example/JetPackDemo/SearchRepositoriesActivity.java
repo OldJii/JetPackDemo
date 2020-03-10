@@ -47,7 +47,7 @@ public class SearchRepositoriesActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_repositories);
         initView();
@@ -169,6 +169,7 @@ public class SearchRepositoriesActivity extends AppCompatActivity {
         此线程池保证**并发执行时**所有任务的执行顺序按照任务的提交顺序执行。
          */
         //RepoDatabase -> GithubLocalCache -> GithubDataSource -> ViewModelFactory
+
         RepoDatabase repoDatabase = RepoDatabase.getInstance(context);
         GithubLocalCache githubLocalCache = GithubLocalCache.getInstance(Executors.newSingleThreadExecutor(), repoDatabase.reposDao());
         GithubDataSource githubDataSource = new GithubDataSource(githubLocalCache);
